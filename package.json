@@ -1,32 +1,26 @@
 {
-  "name": "bootstrap-daterangepicker",
-  "version": "2.1.27",
-  "description": "Date range picker component for Bootstrap",
-  "main": "daterangepicker.js",
-  "style": "daterangepicker.css",
-  "scripts": {
-    "scss": "node-sass daterangepicker.scss > daterangepicker.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "ckeditor",
+  "version": "4.12.1",
+  "description": "JavaScript WYSIWYG web text editor.",
+  "main": "ckeditor.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dangrossman/bootstrap-daterangepicker.git"
+    "url": "git+https://github.com/ckeditor/ckeditor-releases.git"
   },
-  "author": {
-    "name": "Dan Grossman",
-    "email": "dan@dangrossman.info",
-    "url": "http://www.dangrossman.info"
-  },
-  "license": "MIT",
+  "keywords": [
+    "ckeditor",
+    "fckeditor",
+    "editor",
+    "wysiwyg",
+    "html",
+    "richtext",
+    "text",
+    "javascript"
+  ],
+  "author": "CKSource (http://cksource.com/)",
+  "license": "(GPL-2.0 OR LGPL-2.1 OR MPL-1.1)",
   "bugs": {
-    "url": "https://github.com/dangrossman/bootstrap-daterangepicker/issues"
+    "url": "http://dev.ckeditor.com"
   },
-  "homepage": "https://github.com/dangrossman/bootstrap-daterangepicker",
-  "dependencies": {
-    "jquery": ">=1.10",
-    "moment": "^2.9.0"
-  },
-  "devDependencies": {
-    "node-sass": "^3.4.2"
-  }
+  "homepage": "http://ckeditor.com"
 }
