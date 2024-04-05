@@ -1,32 +1,18 @@
-// package metadata file for Meteor.js
-
-/* jshint strict:false */
-/* global Package:true */
-
 Package.describe({
-  name: 'twbs:bootstrap',  // https://atmospherejs.com/twbs/bootstrap
-  summary: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
-  version: '3.4.1',
-  git: 'https://github.com/twbs/bootstrap.git'
+  name: 'dangrossman:bootstrap-daterangepicker',
+  version: '2.1.27',
+  summary: 'Date range picker component for Bootstrap',
+  git: 'https://github.com/dangrossman/bootstrap-daterangepicker',
+  documentation: 'README.md'
 });
 
-Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.0');
-  api.use('jquery', 'client');
-  var assets = [
-    'dist/fonts/glyphicons-halflings-regular.eot',
-    'dist/fonts/glyphicons-halflings-regular.svg',
-    'dist/fonts/glyphicons-halflings-regular.ttf',
-    'dist/fonts/glyphicons-halflings-regular.woff',
-    'dist/fonts/glyphicons-halflings-regular.woff2'
-  ];
-  if (api.addAssets) {
-    api.addAssets(assets, 'client');
-  } else {
-    api.addFiles(assets, 'client', { isAsset: true });
-  }
-  api.addFiles([
-    'dist/css/bootstrap.css',
-    'dist/js/bootstrap.js'
-  ], 'client');
+Package.onUse(function(api) {
+  api.versionsFrom('METEOR@0.9.0.1');
+
+  api.use('twbs:bootstrap@3.3.4', ["client"], {weak: true});
+  api.use('momentjs:moment@2.10.3', ["client"]);
+  api.use('jquery@1.11.3_2', ["client"]);
+
+  api.addFiles('daterangepicker.js', ["client"]);
+  api.addFiles('daterangepicker.css', ["client"]);
 });

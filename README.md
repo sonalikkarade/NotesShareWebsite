@@ -1,42 +1,44 @@
-# bootstrap-datepicker
+# Date Range Picker for Bootstrap
 
-[![Join the chat at https://gitter.im/uxsolutions/bootstrap-datepicker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/uxsolutions/bootstrap-datepicker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.org/uxsolutions/bootstrap-datepicker.svg?branch=master)](https://travis-ci.org/uxsolutions/bootstrap-datepicker)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/uxsolutions/bootstrap-datepicker/master/LICENSE)
-[![npm](https://img.shields.io/npm/dt/bootstrap-datepicker.svg)](https://github.com/uxsolutions/bootstrap-datepicker)
-[![Twitter Follow](https://img.shields.io/twitter/follow/bsdatepicker.svg?style=social&label=Follow)](https://twitter.com/bsdatepicker)
+![Improvely.com](http://i.imgur.com/LbAMf3D.png)
 
-Versions are incremented according to [semver](http://semver.org/).
+This date range picker component for Bootstrap creates a dropdown menu from which a user can
+select a range of dates. I created it while building the UI for [Improvely](http://www.improvely.com), 
+which needed a way to select date ranges for reports.
 
-## CDN
+Features include limiting the selectable date range, localizable strings and date formats,
+a single date picker mode, optional time picker (for e.g. making appointments or reservations),
+and styles that match the default Bootstrap 3 theme.
 
-You can use the [CloudFlare](https://www.cloudflare.com) powered [cdnjs.com](https://cdnjs.com) on your website.
+## [Documentation and Live Usage Examples](http://www.daterangepicker.com)
 
-[bootstrap-datepicker](https://cdnjs.com/libraries/bootstrap-datepicker) on cdnjs
+## [See It In a Live Application](https://awio.iljmp.com/5/drpdemogh)
 
-Please note: It might take a few hours until a new version is available on cdnjs.
+## License
 
-## Links
+This code is made available under the same license as Bootstrap. Moment.js is included in this repository
+for convenience. It is available under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
-* [Online Demo](https://uxsolutions.github.io/bootstrap-datepicker/)
-* [Online Docs](https://bootstrap-datepicker.readthedocs.org/en/stable/) (ReadTheDocs.com)
-* [Google Group](https://groups.google.com/group/bootstrap-datepicker/)
-* [Travis CI](https://travis-ci.org/uxsolutions/bootstrap-datepicker)
+--
 
-## Development
+The MIT License (MIT)
 
-Once you cloned the repo, you'll need to install [grunt](https://gruntjs.com/) and the development dependencies using a package manager:
+Copyright (c) 2012-2017 Dan Grossman
 
-* [yarn](https://yarnpkg.com/) (recommended):
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-```
-$ [sudo] yarn global add grunt-cli
-$ yarn install
-```
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-* [npm](https://www.npmjs.com/):
-
-```
-$ [sudo] npm install --global grunt-cli
-$ npm install
-```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

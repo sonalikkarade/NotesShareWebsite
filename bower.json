@@ -1,12 +1,20 @@
 {
-  "name": "bootstrap-datepicker",
+  "name": "bootstrap-daterangepicker",
   "main": [
-    "dist/css/bootstrap-datepicker3.css",
-    "dist/js/bootstrap-datepicker.js"
+    "daterangepicker.js",
+    "daterangepicker.css"
   ],
-  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "moment.js",
+    "moment.min.js"
+  ],
   "dependencies": {
-    "jquery" : ">=1.7.1 <4.0.0"
-  },
-  "ignore": []
+    "jquery": "1.9.1 - 3",
+    "moment": ">=2.9.0"
+ }
 }
